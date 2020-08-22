@@ -1,6 +1,6 @@
 function convert() {
-  x = document.getElementById("currencyV").value;
+  v = document.getElementById("currencyV").value;
   c = document.getElementById("conv");
-  x = 15.6*x
-  c.innerHTML=" "+x+ " EGP"  ;;
+  v = 15.9*x
+  c.innerHTML=" "+v+ " EGP"  ;;
 }
